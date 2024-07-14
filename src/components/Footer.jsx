@@ -9,7 +9,7 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} vedanta
         </p>
         <div className='flex'>
-        <p className='text-gray-300 pr-10'>version 1.0.2</p>
+        <p className='text-gray-300 pr-10'>version 1.0.3</p>
           <a
             href="https://github.com/vedantabanerjee/pass-generator"
             target="_blank"

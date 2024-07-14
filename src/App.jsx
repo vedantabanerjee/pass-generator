@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="pt-10 px-8 sm:px-0">
       <h1 className="text-black text-4xl text-center my-3 ">Password Generator</h1>
-      <h3 className=" text-gray-700 text-center pb-64">Generate password of any length and type! </h3>
+      <h3 className=" text-gray-700 text-center pb-52">Generate password of any length and type! </h3>
       <div className="w-full max-w-xl mx-auto shadow-md rounded-lg px-5 pt-5 py-3 my-8 bg-gray-800 text-purple-400">
         <div className="flex shadow rounded-lg overflow-hidden mb-4">
           <input
@@ -53,7 +53,7 @@ function App() {
             copy
           </button>
         </div>
-        <div className="flex text-sm gap-x-2">
+        <div className="flex-col text-sm gap-x-2">
           <div className="flex items-center gap-x-1">
             <input
               type="range"
